@@ -19,7 +19,7 @@ function Page2() {
             src={Image}
             alt=""
           />
-          <h3 className="mt-10 font-semibold text-[20px] font-Montserrat ">
+          <h3 className="mt-10 font-semibold text-[20px] font-Montserrat text-[#2C2B2B] ">
             Get Burn
           </h3>
           <div className="leading-[19.5px] text-[16px] font-medium mt-2 text-[#787878] font-Montserrat tracking-[0.13rem] ">
