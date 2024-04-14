@@ -3,12 +3,14 @@ import Image from "../Image/img-2.png";
 import Ellise from "../Image/Ellipse 3.png";
 import Chevron from "../Image/chevron-right.png";
 import round from "../Image/Ellipse 1.png";
+import status from "../Image/Status.png";
 
 function Page2() {
   return (
     <div className="w-[100vw] min-h-full bg-slate-200 ">
       <div className="flex items-center justify-center">
-        <div className="w-[360px] bg-white shadow-lg shadow-indigo-500/40 p-5 mt-1">
+        <div className="w-[360px] bg-white shadow-lg rounded-lg shadow-indigo-500/40 p-5 mt-1">
+          <img className="mt-[-20px] " src={status} alt="" />
           <p className="text-right">
             <a className="text-blue-700 underline" href="#">
               skip

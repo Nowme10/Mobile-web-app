@@ -2,12 +2,14 @@ import React from "react";
 import Google from "../Image/flat-color-icons_google.png";
 import Facebok from "../Image/Vector.png";
 import EyeOff from "../Image/eye-off.png";
+import status from "../Image/Status.png";
 
 function Page4() {
   return (
     <div className="w-[100vw] min-h-full bg-slate-200 ">
       <div className="flex items-center justify-center">
-        <div className="w-[360px] bg-white shadow-lg shadow-indigo-500/40 p-5 mt-1">
+        <div className="w-[360px] bg-white shadow-lg rounded-lg shadow-indigo-500/40 p-5 mt-1">
+          <img className="mt-[-20px] " src={status} alt="" />
           <p className="text-[20px] font-Montserrat font-semibold text-[#2C2B2B]">
             Welcome Back
           </p>
